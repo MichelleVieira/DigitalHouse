@@ -1,0 +1,39 @@
+body{
+    width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #A9A9A9;
+}
+
+header{
+    padding: 20px;
+}
+
+
+nav{
+    width: 300px;
+    display: flex;;
+    flex-direction: column;
+    
+}
+
+hr{
+    margin: 0;
+}
+
+.container{
+    width: 610px;
+    display: flex;
+}
+.container img {
+    height: 200px;
+    width: 300px;
+    border: 1px solid #A9A9A9;
+
+}
+
+.teste{
+    display: flex;
+}
+
