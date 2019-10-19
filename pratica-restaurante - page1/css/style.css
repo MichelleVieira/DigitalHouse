@@ -13,10 +13,10 @@ header{
 
 nav{
     width: 300px;
-    padding: 20px;
-    display: flex;;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
     flex-direction: column;
-    
 }
 
 nav a{
@@ -30,9 +30,9 @@ nav a:hover{
 
 }
 
-hr{
+ hr{
     margin: 0;
-}
+ }
 
 .container{
     width: 610px;
