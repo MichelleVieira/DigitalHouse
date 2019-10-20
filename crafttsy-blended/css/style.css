@@ -1,0 +1,60 @@
+*{
+    list-style-type: none;
+}
+
+body{
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../crafttsy-blended/img/bg-2.png); 
+}
+
+header {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: red; 
+}
+
+header ul{
+    display: flex;
+    padding: 0;
+}
+
+header .list-one{
+    margin-right: 25%;
+}
+
+header ul li{
+    margin-right: 20px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header a img{
+    height: 40px;
+    width: 80px;
+    margin-top: 4px;
+}
+
+section{
+    text-align: center;
+}
+
+section h1{
+   text-transform: uppercase;
+}
+
+
+
+
+
+
+
