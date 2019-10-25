@@ -13,7 +13,6 @@ body{
 
 header {
     display: flex;
-    margin: 5px;
     padding: 5px;
     justify-content: space-around;
     background-color: red; 
@@ -44,13 +43,159 @@ header a img{
     margin-top: 4px;
 }
 
-section{
+section.login{
+    padding-top: 20px;
+}
+
+section.login form{
+    width: 35% ;
+    margin: 0 auto;
+ 
+}
+
+section.login h1{
+   text-transform: uppercase;
+   text-align: center;
+
+}
+section .imput-lm{
+    width: 25vw;
+    height: 3vh; 
+}
+
+section .imput-lm-one{
+    margin-left: 59%;
+}
+
+section.login p{
+    font-size: 0.9em;
+    color: red;
+}
+
+section form button{
+    padding: 5px 40px;
+    color: #fff;
+    font-size: 1em;
+    background-color: rgb(76, 140, 192);
+    border-color: rgb(76, 140, 192) ;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+}
+
+.content section{
+    background-color: #fff;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+    margin: 10px;
+    width: 300px;
+}
+
+.container div h2{
+    font-size: 1em;
+}
+
+.container div p{
+    color: slategrey;
+}
+
+.container div button{
+    padding: 5px;
+    text-transform: uppercase;
+    color:#fff;
+    border-color: red;
+    background-color: red;
+    cursor: pointer;
+  
+}
+
+.content nav{
+    width: 30%;
+}
+
+.content nav h1{
+    margin-top: 0;
+    padding: 5px;
+    font-size: 1.1em;
+    background-color: #fff;
+    border:  1px solid rgb(87, 207, 243);
+}
+
+.content nav ul{
+    padding: 0;
+    background-color: #fff;
+    border:  1px solid rgb(87, 207, 243);
+}
+
+.content nav ul li{
+    display: flex;
+}
+
+li .img-tutoriais{
+    width: 100px;
+   margin: 5px;
+}
+
+.content nav ul li span{
+    margin: 20px 10px;
+    font-size: 0.9em;
+    color: slategrey;
+}
+
+.publicity li img{
+    
+    width: 270px;
+    padding:0;
+    margin: 6px;
+    align-items: center;
+}
+
+section.registrar{
+    height: 155vh;
+}
+
+section.registrar h1{
+    text-transform: uppercase;
     text-align: center;
 }
 
-section h1{
-   text-transform: uppercase;
+section.registrar form{
+    width: 35% ;
+    margin: 0 auto;
+    color: slategrey;
+ 
 }
+
+section.registrar .input-obrigatorio{
+    margin: 0;
+    padding-top: 5px;
+    color: red;
+}
+section.registrar form label{
+    color: #000;
+}
+section.registrar form select{
+    width: 60%;
+}
+
+
+
+
+
+
 
 
 

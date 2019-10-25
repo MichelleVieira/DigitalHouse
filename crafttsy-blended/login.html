@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
 
-    <title>Craftsy - login</title>
+    <title>Craftsy - Home</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-
     <header>
         <a href="index.html"><img src="./crafttsy-blended/img/logo.png" alt="logo"></a>
         <ul class="list-one">
             <li>
-                <a href="#">smartphones</a>
+                <a href="index.html">smartphones</a>
             </li>
             <li>
                 <a href="#">tablets</a>
@@ -34,6 +34,30 @@
             </li>
         </ul>
     </header>
+
+    <section class="login">
+        <h1>Bem-Vindo</h1>
+
+        <form action="login.html">
+
+            <label for="input_email">Email</label>
+            <br>
+            <input class="imput-lm"  type="text" nome="email" id="input_email" placeholder="email@email.com" required>
+            <br><br>
+            <label for="input_senha">Senha</label>
+            <br>
+            <input  class="imput-lm"  type="password" nome="senha" id="input_senha" placeholder="senha" required>  
+            <br><br>
+            <input class="imput-lm-one" type="checkbox" nome="lembrarDeMim" id="input_lembrarDeMim">
+            <label for="input_lembrarDeMim">Lembrar de mim</label>
+            <br><br>
+            <p>A combinação de email e senha não é válida</p>
+            <button type="submit">Entrar</button>
+            
+        </form>
+
+
+    </section>
 
 </body>
 

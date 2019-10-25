@@ -14,7 +14,7 @@
         <a href="index.html"><img src="./crafttsy-blended/img/logo.png" alt="logo"></a>
         <ul class="list-one">
             <li>
-                <a href="#">smartphones</a>
+                <a href="index.html">smartphones</a>
             </li>
             <li>
                 <a href="#">tablets</a>
@@ -33,6 +33,79 @@
             </li>
         </ul>
     </header>
+
+    <section class="registrar">
+        <h1>Registrar</h1>
+    
+        <form action="registrar.html">
+    
+            <label for="input_nome">Nome</label>
+            <br>
+            <input class="imput-lm"  type="text" nome="nome" id="input_nome" placeholder="Seu nome aqui" required>
+            <p class="input-obrigatorio" >Obrigatório.</p>
+            <br>
+            <label for="input_email">Email</label>
+            <br>
+            <input  class="imput-lm"  type="text" nome="email" id="input_email" placeholder="email@email.com" required>
+            <p class="input-obrigatorio" >Obrigatório.</p>
+            <br>
+            <label for="input_senha">Senha</label>
+            <br>
+            <input  class="imput-lm"  type="password" nome="senha" id="input_senha" placeholder="senha"  required>
+            <p class="input-obrigatorio" >Obrigatório.</p>
+            <br>
+            <label for="pais"><strong>País de nascimento</strong></label>
+            <br><br>
+            <select name="pais">
+                <option selected disabled>selecione uma opção</option>
+
+                <option value="chile">Japão</option>
+                <option value="chile">Brasil</option>
+                <option value="chile">Alemanha</option>
+                <option value="chile">Estados Unidos</option>
+                <option value="chile">Russia</option>
+                <option value="chile">Italia</option>
+            </select>
+            <p class="input-obrigatorio">Obrigatório.</p>
+             <br>
+            <label for="genero"><strong>Genero</strong></label>
+            <br><br>
+            <label for="masculino"><input type="radio" name="genero" id="masculino" value="masculino">Masculino</label>
+            <label for="feminino"><input type="radio" name="genero" id="feminino" value="feminino">Feminino</label>
+            <label for="outro"><input type="radio" name="genero" id="outro" value="outro">Prefiro não dizer</label>
+            <br><br>
+            <label for="genero"><strong>Hobbies</strong></label>
+            <br><br>
+            <label for="guitarra"><input type="checkbox" name="guitarra" id="guitarra" value="guitarra">Guitarra</label>
+            <label for="futebol"><input type="checkbox" name="futebol" id="futebol" value="futebol">Futebol</label>
+            <label for="tenis"><input type="checkbox" name="tenis" id="tenis" value="tenis">Tenis</label>
+            <label for="programacao"><input type="checkbox" name="programacao" id="programacao" value="programacao">Programação</label>
+            <br><br>
+            <label for="comentarios"><strong>Comentários</strong></label>
+            <br><br>
+            <textarea name="comentarios" rows="7" cols="47"></textarea>
+            <br><br>
+            <label for="termos"><input type="checkbox" name="termos" id="termos" value="termos">Aceito os termos e condições.</label>
+
+            <p>Botão enviar com tag "input"</p>
+
+            <input type="submit" value="Registrar">
+            <input type="button" value="Cancelar">
+
+            <p>Botão enviar com tag "button"</p>
+
+            <button type="submit">Registrar</button>
+            <button>Cancelar</button>
+            
+
+
+
+        
+        </form>
+    
+    
+        </section>
+    
 
 </body>
 
