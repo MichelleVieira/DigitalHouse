@@ -12,8 +12,8 @@ body{
 }
 
 nav{
-  /* position: fixed; */
-  /* z-index: 1; */
+  position: fixed; 
+   z-index: 1; 
   display: flex;
   height: 50px;
   min-width: 100%;
@@ -107,11 +107,11 @@ hr{
   margin-bottom: 80px!important;
 }
 
-.content{
+.content-portifolio{
   text-align: center;
 }
 
-.content h2{
+.content-portifolio h2{
   margin-top: 4%; 
   color: #2d3e50;
   font-size: 1.5em;
@@ -126,7 +126,7 @@ hr{
 .content-images{
   margin-bottom: 2%;
 }
-.content .content-images img{
+.content-portifolio .content-images img{
   height: 200px;
   width: 320px;
   border-radius: 10px;
@@ -138,32 +138,69 @@ hr{
 
 .icon-add{
   height: 170px!important;
-  position:relative;
+  position: relative;
   padding: 50px 120px;
   top: 30px;
   background-color: #59b794;
   opacity: .8;
-  
-  
-
 }
-@media (min-width: 320px) and (max-width: 768px) { 
+
+.content-about{
+  background-color: #5cbd9c;
+}
+
+.content-about h2{
+  text-align: center;
+  padding-top: 4%; 
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 320px) and (max-width: 991px) { 
 
   nav ul.nav-space-one{
    width: 30%;
    padding: 0;
   }
+ 
+  .content-images div{
+    margin-bottom: 20px;
+  }
+  .icon-add{
+   margin-bottom: 35px;
+  }
+  .header img.avatar {
+    margin-top: 8%;
+  } 
+
+
 } 
+
+@media(max-width: 500px){
+.header img.avatar {
+    margin-top: 15%;
+  } 
+
+}
 @media (min-width: 769px) and (max-width: 1199px) { 
 
   nav ul.nav-space-one{
     width: 55%;
   }
-/* 
-  .image-cake{
-    position: static;
-  } */
+  
 } 
+
+@media(min-width: 992px) and (max-width: 1199px){
+  .general-cake-add{
+  padding-left: 0;
+  padding-right: 0;
+ }
+ .content-portifolio .content-images img {
+   width: 300px;
+ }
+}
 
 
     
