@@ -183,13 +183,58 @@ button.btn-content-about img{
 
 .content-contact label{
   text-align: left;
+  color: #495057;
 }
-.content-contact form{
+.content-contact-form{
   margin: auto;
   width: 700px;
 }
 .content-contact textarea{
-  color: #2d3e50;;
+  color: #2d3e50;
+  width: 700px;
+}
+
+.content-contact-form button{
+  padding: 10px 15px;
+  margin-bottom: 10%;
+  color: #fff;  
+  border-radius: 5px;
+  border-color: #5cbd9c;
+  background-color: #5cbd9c;
+}
+.footer{
+  padding: 20px 0;
+  color: #fff;
+  text-align: center;
+  background-color: #2d3e50;
+}
+.footer h3{
+  margin-top: 30px;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+.footer p{
+  width: 250px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.footer ul{
+  margin: auto;
+  display: flex;
+  width: 200px;
+}
+.footer ul li{
+  margin-left: 4%;
+}
+.footer-two{
+  text-align: center;
+  background-color: #121f2d;
+}
+.footer-two p{
+  margin: 10px 0;
+  color: #fff;
+  font-size: 15px;
 }
 
 @media (min-width: 320px) and (max-width: 991px) { 
@@ -213,6 +258,17 @@ button.btn-content-about img{
   }
   .content-about-text p{
     width: 400px;
+ }
+ button.btn-content-about {
+   margin-right: 30%;
+   margin-left: 30%;
+ }
+ .content-contact-form{
+  width: 450px;
+  margin: auto;
+ }
+ .content-contact-form textarea{
+  width: 450px;
  }
 
 
