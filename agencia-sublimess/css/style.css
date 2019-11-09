@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img{
+    width: 90px;
+}
+.navbar {
+    background-color: #E91E63; 
+}
+.navbar-nav li a{
+    color: #FFFFFF;
+    font-weight: bold
+}
+.navbar-nav li a:hover{
+    color: #F8BBD0; 
+}
+.carousel-item img{
+    height: 610px;
+}
+.servicos h2{
+    color: #E91E63; 
+    font-weight: bold;
+}
+.servicos img{
+    height: 250px;
+}
+.servicos h3{
+    color: #757575; 
+    font-size: 1.5em;
+}
+.quem-somos-style h2{
+    color: #E91E63; 
+}
+.quem-somos-style p{
+    color: #757575; 
+}
+
+#quem-somos img{
+    border: 1px solid #757575;
+}
+
+.btn{
+    background-color: #E91E63; 
+    border-color: #F8BBD0
+}
+.btn:hover{
+    background-color: #F8BBD0; 
+    border-color: #F8BBD0; 
+}
+
+.footer{
+  background-color:   #757575;
+}
+.footer p{
+    color: #FFFFFF;
+}
