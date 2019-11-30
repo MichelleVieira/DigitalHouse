@@ -23,7 +23,8 @@ body{
 .carousel-item img{
     height: 610px;
 }
-.servicos h2{
+.servicos h2,
+.contato{
     color: #E91E63; 
     font-weight: bold;
 }
@@ -60,3 +61,13 @@ body{
 .footer p{
     color: #FFFFFF;
 }
+
+textarea{
+    color: #757575;
+}
+
+label{
+    color: #757575;
+    font-weight: bold;
+}
+
